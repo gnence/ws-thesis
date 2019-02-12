@@ -9,6 +9,3 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 def test_deploy():
     msg = request.json.get('msg')
     return jsonify(msg)
-
-if __name__ is '__main__':
-    app.run()
